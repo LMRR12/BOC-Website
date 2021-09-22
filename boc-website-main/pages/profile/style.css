@@ -1,0 +1,82 @@
+body {
+    font-family: "Nunito", sans-serif !important;
+}
+
+main {
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.profile-button {
+    background: #4154f1;
+    box-shadow: none;
+    border: none;
+    color: white;
+}
+
+.container.rounded {
+    background: rgb(255, 255, 255);
+}
+
+.edit-profile header {
+    height: 80px;
+    background-color: #fff;
+}
+
+.edit-profile .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8;
+}
+
+.edit-profile .profile-button:hover {
+    background: #6070ff;
+}
+
+.edit-profile .profile-button:focus {
+    background: #4154f1;
+    box-shadow: none
+}
+
+.edit-profile .profile-button:active {
+    background: #4154f1;
+    box-shadow: none
+}
+
+.edit-profile .back:hover {
+    color: #4154f1;
+    cursor: pointer
+}
+
+.edit-profile .labels {
+    font-size: 11px
+}
+
+.edit-profile .add-experience:hover {
+    background: #4154f1;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #4154f1
+}
+
+.profile main {
+    background-image: url(../../assets/img/bg.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.profile .box {
+    border: 1px rgba(0, 0, 0, 0.192) solid;
+    border-radius: 10px;
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.br-1{
+    border-right: 1px rgba(0, 0, 0, 0.192) solid;
+}
+
+.nr{
+    border-radius: 0 !important;
+}
