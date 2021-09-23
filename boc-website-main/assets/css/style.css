@@ -397,7 +397,8 @@ section {
     margin: 0;
     font-size: 48px;
     font-weight: 700;
-    color: #012970
+    color: transparent;
+    -webkit-text-stroke: #012970;
 }
 
 .hero h2 {
@@ -2053,3 +2054,4 @@ input:focus, select:focus, textarea:focus {
     cursor: pointer;
     font-size: 15px;
 }
+
