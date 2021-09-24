@@ -398,7 +398,17 @@ section {
     font-size: 48px;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: #012970;
+    -webkit-text-stroke: 1px #012970;
+    background: url(../img/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100% {
+        background-position: 2000px 0;
+    }
 }
 
 .hero h2 {
