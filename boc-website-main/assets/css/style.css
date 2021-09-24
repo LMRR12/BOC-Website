@@ -399,8 +399,12 @@ section {
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: 1px #012970;
+    -moz-text-stroke: 1px #012970;
+    -ms-text-stroke: 1px #012970;
     background: url(../img/back.png);
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
 }
