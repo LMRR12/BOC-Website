@@ -5,9 +5,9 @@ body{
      height: 100vh;
      background: url(../images/bg.jpg) top center no-repeat;
      background-size: cover;
-     
 
 }
+
 
 .welcome-page{
   color: #ffffff;
@@ -18,12 +18,30 @@ body{
   top: 0;
   left: 0;
   z-index: 500;
-  background-color: #0000005b;
 }
 
 
 
 .first{display: none;}
+
+.club-name {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+  background: url(../../boc-website-main/assets/img/back.png);
+  -webkit-background-clip: text;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back{
+  100%{
+    background-position: 2000px 0;
+  }
+}
+
+.wlc-about {
+  background-color: #c7daff;
+  padding: 15px;
+}
 
 .btn{
   background-color: #4154F1;
