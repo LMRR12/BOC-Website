@@ -2175,7 +2175,7 @@ input:focus, select:focus, textarea:focus {
     font-size: 15px;
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0;
 }
 
@@ -2228,7 +2228,7 @@ input:focus, select:focus, textarea:focus {
     height: 100%;
     background: linear-gradient(to top, #008aff, #00ffe7 );
     filter: blur(30px);
-} */
+}
 
 
 
